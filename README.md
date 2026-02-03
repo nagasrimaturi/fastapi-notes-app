@@ -35,8 +35,7 @@ The database uses **SQLite** and is created automatically when the app runs.
 ### 1️⃣ POST `/notes`
 Create and save a new note.
 
-**Request Body**
-```json
+
 {
   "title": "Test note",
   "content": "FastAPI project completed"
@@ -148,5 +147,6 @@ Dockerize and deploy the application
 ✔ Ready for submission and interviews
 
 👤 Author
+
 
 Nagasri Maturi
