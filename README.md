@@ -37,7 +37,7 @@ The database uses **SQLite** and is created automatically when the app runs.
 ### 1️⃣ POST `/notes`
 Create and save a new note.
 
-**Request Body**
+##Request Body
 ```json
 {
   "title": "Test note",
@@ -51,7 +51,7 @@ RESPONSE
   "created_at": "2026-02-03T14:46:32.191497"
 }
 
-2️⃣ GET /notes
+##GET /notes
 
 Fetch saved notes with pagination and optional search.
 Query Parameters
@@ -62,7 +62,7 @@ q (optional search text)
 Example
 GET /notes?limit=5&offset=0&q=FastAPI
 
-3️⃣ POST /notes/summarize
+##POST /notes/summarize
 Summarize text using an external LLM API.
 Request Body
 {
@@ -75,7 +75,7 @@ Response (example)
   "tags": ["notes", "ai"]
 }
 
-🔑 External API Integration
+🔑 ##External API Integration
 Service: OpenAI (LLM API)
 Purpose: Text summarization
 Integration Type: Server-side API call using API key
@@ -138,3 +138,4 @@ Dockerize and deploy the application
 👤 Author
 
 Nagasri Maturi
+
