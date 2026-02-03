@@ -42,7 +42,7 @@ Create and save a new note.
 }
 
 
-###2️⃣ GET /notes
+**2️⃣ GET /notes**
 
 Fetch saved notes with pagination and optional search.
 
@@ -54,11 +54,11 @@ offset (default: 0)
 
 q (optional search text)
 
-###3️⃣ POST /notes/summarize
+**3️⃣ POST /notes/summarize**
 
 Summarize text using an external LLM API.
 
-###🔑 External API Integration
+**🔑 External API Integration**
 
 Service: OpenAI (LLM API)
 
@@ -66,7 +66,7 @@ Purpose: Text summarization
 
 Integration Type: Server-side API call using API key
 
-###⚙️ How to Run Locally
+***⚙️ How to Run Locally***
 1️⃣ Install dependencies
 pip install -r requirements.txt
 2️⃣ Run the server
@@ -76,7 +76,7 @@ http://127.0.0.1:8001/docs
 
 
 
-###📸 Screenshots / Demo
+**📸 Screenshots / Demo**
 
 Screenshots are available in the screenshots/ folder:
 
@@ -88,7 +88,7 @@ get_notes.png – Fetching notes from the database
 
 These screenshots demonstrate that all core APIs are working correctly.
 
-###⚠️ Tradeoffs and Design Decisions
+**⚠️ Tradeoffs and Design Decisions**
 SQLite instead of PostgreSQL
 
 Chosen for simplicity and zero setup
@@ -113,7 +113,7 @@ Focused on backend fundamentals
 
 Authentication can be added in future versions
 
-###🧠 Lessons Learned
+**🧠 Lessons Learned**
 
 FastAPI provides clean APIs with automatic documentation
 
@@ -127,7 +127,7 @@ Proper error handling is critical for debugging
 
 Clean project structure improves review quality
 
-###🚀 Future Improvements
+**🚀 Future Improvements**
 
 Add Pydantic models for request/response validation
 
@@ -139,7 +139,7 @@ Add unit tests
 
 Dockerize and deploy the application
 
-###✅ Project Status
+**✅ Project Status**
 
 ✔ Backend complete
 ✔ Database integration complete
@@ -147,8 +147,7 @@ Dockerize and deploy the application
 ✔ Screenshots added
 ✔ Ready for submission and interviews
 
-👤 Author
-
-
+**👤 Author**
 Nagasri Maturi
+
 
