@@ -137,4 +137,4 @@ Dockerize and deploy the application
 
 👤 Author
 
-**Nagasri Maturi**
+Nagasri Maturi
