@@ -69,8 +69,10 @@ Integration Type: Server-side API call using API key
 ***⚙️ How to Run Locally***
 1️⃣ Install dependencies
 pip install -r requirements.txt
+
 2️⃣ Run the server
 uvicorn main:app --port 8001
+
 3️⃣ Open Swagger UI
 http://127.0.0.1:8001/docs
 
@@ -149,5 +151,6 @@ Dockerize and deploy the application
 
 **👤 Author**
 Nagasri Maturi
+
 
 
