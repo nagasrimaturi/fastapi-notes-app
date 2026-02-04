@@ -90,59 +90,10 @@ get_notes.png – Fetching notes from the database
 
 These screenshots demonstrate that all core APIs are working correctly.
 
-**⚠️ Tradeoffs and Design Decisions**
-SQLite instead of PostgreSQL
-
-Chosen for simplicity and zero setup
-
-Not suitable for high-concurrency production systems
-
-Dictionary-based request bodies
-
-Easy to understand and beginner-friendly
-
-Less strict validation than Pydantic models
-
-External AI API dependency
-
-Demonstrates real-world LLM integration
-
-Execution depends on API quota and billing
-
-No authentication
-
-Focused on backend fundamentals
-
-Authentication can be added in future versions
-
-**🧠 Lessons Learned**
-
-FastAPI provides clean APIs with automatic documentation
-
-SQLAlchemy simplifies database interactions
-
-Pagination and search improve API usability
-
-External APIs introduce real-world constraints like quota and billing
-
-Proper error handling is critical for debugging
-
-Clean project structure improves review quality
-
-**🚀 Future Improvements**
-
-Add Pydantic models for request/response validation
-
-Add authentication and authorization
-
-Use PostgreSQL instead of SQLite
-
-Add unit tests
-
-Dockerize and deploy the application
 
 **👤 Author**
 Nagasri Maturi
+
 
 
 
