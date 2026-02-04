@@ -48,9 +48,9 @@ def get_notes(limit: int = 10, offset: int = 0, q: str = None):
 
     return notes
 
-# =============================
+
 # GET /notes → fetch notes
-# =============================
+
 @app.post("/notes")
 def create_note(note: dict):
     db = SessionLocal()
@@ -72,15 +72,14 @@ def create_note(note: dict):
         "created_at": new_note.created_at
     }
 
-# =============================
+
 # OpenAI client
-# =============================
-client = OpenAI(api_key="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")
+
+client = OpenAI(api_key="your_api_key")
 
 
-# =============================
 # POST /notes/summarize
-# =============================
+
 @app.post("/notes/summarize")
 def summarize_note(data: dict):
     try:
@@ -106,4 +105,5 @@ def summarize_note(data: dict):
 
     except Exception as e:
         # This will show the REAL error instead of silent 500
+
         raise HTTPException(status_code=500, detail=str(e))
