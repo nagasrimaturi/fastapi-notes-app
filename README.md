@@ -141,16 +141,9 @@ Add unit tests
 
 Dockerize and deploy the application
 
-**✅ Project Status**
-
-✔ Backend complete
-✔ Database integration complete
-✔ External API integration complete
-✔ Screenshots added
-✔ Ready for submission and interviews
-
 **👤 Author**
 Nagasri Maturi
+
 
 
 
