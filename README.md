@@ -78,21 +78,11 @@ http://127.0.0.1:8001/docs
 
 
 
-**📸 Screenshots / Demo**
-
-Screenshots are available in the screenshots/ folder:
-
-swagger_ui.png – Swagger UI showing all endpoints
-
-post_notes.png – Creating a new note
-
-get_notes.png – Fetching notes from the database
-
-These screenshots demonstrate that all core APIs are working correctly.
 
 
 **👤 Author**
 Nagasri Maturi
+
 
 
 
